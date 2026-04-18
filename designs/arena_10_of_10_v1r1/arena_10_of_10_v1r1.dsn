@@ -253,12 +253,6 @@
     )
   )
   (placement
-    (component Capacitor_SMD:C_0402_1005Metric
-      (place C2 293210.000000 -190990.000000 front 90.000000 (PN 100nF))
-    )
-    (component "Package_TO_SOT_SMD:SOT-23-5"
-      (place U2 294160.000000 -194182.500000 front 90.000000 (PN SN74LV1T34DBV))
-    )
     (component Resistor_SMD:R_0402_1005Metric
       (place R10 281970.000000 -244230.000000 front -90.000000 (PN 33))
       (place R29 269920.000000 -271105.000000 front -90.000000 (PN 33))
@@ -382,7 +376,7 @@
       (place R187 151780.000000 -279260.000000 front 180.000000 (PN 5k))
       (place R53 288642.500000 -238565.000000 front 180.000000 (PN 33))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::1
+    (component Capacitor_SMD:C_0402_1005Metric
       (place C69 205436.759000 -103454.184000 front 162.000000 (PN 0.1uF))
     )
     (component Resistor_SMD:R_0402_1005Metric::3
@@ -435,7 +429,7 @@
       (place D3 287530.000000 -119987.500000 front -90.000000 (PN "BAS40-04"))
       (place D4 287710.000000 -142620.000000 front -90.000000 (PN "BAS40-04"))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::2
+    (component Capacitor_SMD:C_0402_1005Metric::1
       (place C88 188120.573000 -255353.821000 front 108.000000 (PN 0.1uF))
       (place C91 219826.908000 -244883.575000 front 108.000000 (PN 0.1uF))
       (place C90 214998.391000 -246494.514000 front 108.000000 (PN 0.1uF))
@@ -453,10 +447,11 @@
       (place R127 106692.679000 -144913.380000 front -36.000000 (PN 33))
       (place R123 124452.893000 -120289.906000 front -36.000000 (PN 33))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::3
+    (component Capacitor_SMD:C_0402_1005Metric::2
       (place C31 248495.000000 -236952.500000 front 90.000000 (PN 0.1uF))
       (place C3 293130.000000 -168150.000000 front 90.000000 (PN 100nF))
       (place C7 263470.000000 -225425.000000 front 90.000000 (PN 0.1uF))
+      (place C2 293210.000000 -190990.000000 front 90.000000 (PN 100nF))
       (place C8 267030.000000 -225515.000000 front 90.000000 (PN 0.1uF))
       (place C116 246890.000000 -89390.000000 front 90.000000 (PN 0.1uF))
       (place C14 270690.000000 -236952.500000 front 90.000000 (PN 0.1uF))
@@ -493,16 +488,17 @@
     (component panel_silk:Panel_Silk
       (place P7 237276.745000 -134587.614000 front 126.000000 (PN NA))
     )
-    (component "Package_TO_SOT_SMD:SOT-23-5::1"
+    (component "Package_TO_SOT_SMD:SOT-23-5"
       (place U100 257567.500000 -90520.000000 front 90.000000 (PN 74LVC1G125))
       (place U3 294130.000000 -171282.500000 front 90.000000 (PN SN74LV1T34DBV))
+      (place U2 294160.000000 -194182.500000 front 90.000000 (PN SN74LV1T34DBV))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::4
+    (component Capacitor_SMD:C_0402_1005Metric::3
       (place C68 215035.473000 -108991.358000 front -108.000000 (PN 0.1uF))
       (place C71 183230.253000 -98825.450000 front -108.000000 (PN 0.1uF))
       (place C70 188083.491000 -100360.304000 front -108.000000 (PN 0.1uF))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::5
+    (component Capacitor_SMD:C_0402_1005Metric::4
       (place C35 296680.000000 -271102.500000 front -90.000000 (PN 0.1uF))
       (place C34 300380.000000 -271102.500000 front -90.000000 (PN 0.1uF))
       (place C19 292960.000000 -271135.000000 front -90.000000 (PN 0.1uF))
@@ -528,7 +524,7 @@
       (place R138 205124.892000 -104446.373000 front 162.000000 (PN 33))
       (place R141 205767.647000 -102468.176000 front 162.000000 (PN 33))
     )
-    (component "Package_TO_SOT_SMD:SOT-23-5::2"
+    (component "Package_TO_SOT_SMD:SOT-23-5::1"
       (place U108 285312.500000 -213325.000000 front 0.000000 (PN 74LVC1G125))
       (place U112 285292.500000 -193710.000000 front 0.000000 (PN 74LVC1G125))
       (place U96 173675.000000 -282265.000000 front 0.000000 (PN 74LVC1G125))
@@ -609,7 +605,7 @@
       (place U4 270940.000000 -268015.000000 front -90.000000 (PN 74LVC2G17))
       (place U85 294050.000000 -102652.500000 front -90.000000 (PN "MCP4725xxx-xCH"))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::6
+    (component Capacitor_SMD:C_0402_1005Metric::5
       (place C102 293620.000000 -146000.000000 front 0.000000 (PN 0.1uF))
       (place C126 220670.000000 -271690.000000 front 0.000000 (PN 0.1uF))
       (place C122 286410.000000 -183290.000000 front 0.000000 (PN 0.1uF))
@@ -652,7 +648,7 @@
       (place U55 117456.033000 -126049.797000 front -126.000000 (PN 74LVC2G17))
       (place U65 184206.214000 -95854.111000 front -108.000000 (PN 74LVC2G17))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::7
+    (component Capacitor_SMD:C_0402_1005Metric::6
       (place C36 242830.000000 -256945.000000 front 180.000000 (PN 0.1uF))
       (place C80 254627.300000 -163649.999000 front 180.000000 (PN 0.1uF))
       (place C81 254587.300000 -158559.999000 front 180.000000 (PN 0.1uF))
@@ -697,7 +693,7 @@
       (place U94 170075.000000 -275560.000000 front 0.000000 (PN SN74HCS08))
       (place U106 215975.000000 -275500.000000 front 0.000000 (PN SN74HCS08))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::8
+    (component Capacitor_SMD:C_0402_1005Metric::7
       (place C76 228613.242000 -117100.070000 front -144.000000 (PN 0.1uF))
       (place C73 248368.835000 -144019.102000 front -144.000000 (PN 0.1uF))
       (place C75 231637.430000 -121194.455000 front -144.000000 (PN 0.1uF))
@@ -717,7 +713,7 @@
       (place J27 304800.000000 -101540.000000 front -90.000000 (PN Conn_Coaxial))
       (place J28 304800.000000 -124415.000000 front -90.000000 (PN Conn_Coaxial))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::9
+    (component Capacitor_SMD:C_0402_1005Metric::8
       (place C59 115633.156000 -128541.759000 front -126.000000 (PN 0.1uF))
     )
     (component Resistor_SMD:R_0402_1005Metric::9
@@ -737,7 +733,7 @@
       (place U56 104828.194000 -142260.881000 front -36.000000 (PN 74LVC2G17))
       (place U57 101844.457000 -146384.655000 front -36.000000 (PN 74LVC2G17))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::10
+    (component Capacitor_SMD:C_0402_1005Metric::9
       (place C50 123962.569000 -234405.544000 front 36.000000 (PN 0.1uF))
       (place C48 107231.164000 -211580.897000 front 36.000000 (PN 0.1uF))
       (place C51 126986.757000 -238499.929000 front 36.000000 (PN 0.1uF))
@@ -756,7 +752,7 @@
     (component Capacitor_SMD:C_1210_3225Metric
       (place C87 182317.732000 -258464.232000 front 108.000000 (PN 100uF))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::11
+    (component Capacitor_SMD:C_0402_1005Metric::10
       (place C43 140564.526000 -246608.641000 front 72.000000 (PN 0.1uF))
       (place C45 167516.508000 -255239.695000 front 72.000000 (PN 0.1uF))
       (place C46 172369.746000 -256774.549000 front 72.000000 (PN 0.1uF))
@@ -776,7 +772,7 @@
     (component panel_silk:Panel_Silk::2
       (place P6 200518.095000 -107880.892000 front 162.000000 (PN NA))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::12
+    (component Capacitor_SMD:C_0402_1005Metric::11
       (place C89 199140.765000 -254191.507000 front 18.000000 (PN 0.1uF))
     )
     (component Capacitor_SMD:C_1210_3225Metric::3
@@ -793,7 +789,7 @@
     (component panel_silk:Panel_Silk::3
       (place P4 118323.254000 -134587.614000 front -126.000000 (PN NA))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::13
+    (component Capacitor_SMD:C_0402_1005Metric::12
       (place C64 156459.234000 -101408.492000 front -162.000000 (PN 0.1uF))
     )
     (component Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical::3
@@ -846,7 +842,7 @@
       (place J11 130361.096000 -118018.946000 front -36.000000 (PN Conn_01x05))
       (place J12 112257.310000 -142936.670000 front -36.000000 (PN Conn_01x05))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::14
+    (component Capacitor_SMD:C_0402_1005Metric::13
       (place C49 111742.017000 -221702.548000 front -54.000000 (PN 0.1uF))
     )
     (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm::1"
@@ -881,7 +877,7 @@
       (place U81 220783.848000 -247861.094000 front 108.000000 (PN 74LVC2G17))
       (place U78 189085.719000 -258291.874000 front 108.000000 (PN 74LVC2G17))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::15
+    (component Capacitor_SMD:C_0402_1005Metric::14
       (place C58 123865.487000 -121123.921000 front -36.000000 (PN 0.1uF))
       (place C60 107328.246000 -144089.636000 front -36.000000 (PN 0.1uF))
       (place C61 104368.780000 -148231.044000 front -36.000000 (PN 0.1uF))
@@ -897,7 +893,7 @@
     (component panel_silk:Panel_Silk::5
       (place P8 251317.300000 -177799.999000 front 90.000000 (PN NA))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::16
+    (component Capacitor_SMD:C_0402_1005Metric::15
       (place C74 243857.982000 -133897.451000 front 126.000000 (PN 0.1uF))
     )
     (component Resistor_SMD:R_0402_1005Metric::15
@@ -911,7 +907,7 @@
       (place J16 190703.191000 -104691.836000 front -108.000000 (PN Conn_01x05))
       (place J15 219995.732000 -114209.560000 front -108.000000 (PN Conn_01x05))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::17
+    (component Capacitor_SMD:C_0402_1005Metric::16
       (place C83 231734.512000 -234476.078000 front 144.000000 (PN 0.1uF))
       (place C85 248271.753000 -211510.363000 front 144.000000 (PN 0.1uF))
       (place C86 251231.219000 -207368.955000 front 144.000000 (PN 0.1uF))
@@ -923,7 +919,7 @@
     (component panel_silk:Panel_Silk::6
       (place P9 237276.745000 -221012.385000 front 54.000000 (PN NA))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::18
+    (component Capacitor_SMD:C_0402_1005Metric::17
       (place C66 135773.091000 -110716.424000 front -72.000000 (PN 0.1uF))
       (place C65 140601.608000 -109105.485000 front -72.000000 (PN 0.1uF))
       (place C63 167479.426000 -100246.178000 front -72.000000 (PN 0.1uF))
@@ -962,7 +958,7 @@
     (component "Package_TO_SOT_SMD:SOT-23-6::15"
       (place U59 159398.711000 -100463.912000 front -162.000000 (PN 74LVC2G17))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::19
+    (component Capacitor_SMD:C_0402_1005Metric::18
       (place C84 239966.843000 -227058.240000 front 54.000000 (PN 0.1uF))
     )
     (component panel_silk:Panel_Silk::9
@@ -971,51 +967,11 @@
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
       (place J2 308490.000000 -280120.000000 front 0.000000 (PN Conn_01x02))
     )
-    (component Capacitor_SMD:C_0402_1005Metric::20
+    (component Capacitor_SMD:C_0402_1005Metric::19
       (place C44 150163.240000 -252145.815000 front -18.000000 (PN 0.1uF))
     )
   )
   (library
-    (image Capacitor_SMD:C_0402_1005Metric
-      (outline (path signal 100  500 250  500 -250))
-      (outline (path signal 100  -500 250  500 250))
-      (outline (path signal 100  500 -250  -500 -250))
-      (outline (path signal 100  -500 -250  -500 250))
-      (outline (path signal 50  910 460  910 -460))
-      (outline (path signal 50  -910 460  910 460))
-      (outline (path signal 50  910 -460  -910 -460))
-      (outline (path signal 50  -910 -460  -910 460))
-      (outline (path signal 120  -107.836 360  107.836 360))
-      (outline (path signal 120  -107.836 -360  107.836 -360))
-      (pin RoundRect[T]Pad_560.000000x620.000000_140.533000_um_0.000000_0 2 480 0)
-      (pin RoundRect[T]Pad_560.000000x620.000000_140.533000_um_0.000000_0 1 -480 0)
-    )
-    (image "Package_TO_SOT_SMD:SOT-23-5"
-      (outline (path signal 50  1050 1700  1050 1500))
-      (outline (path signal 50  -1050 1700  1050 1700))
-      (outline (path signal 50  2050 1500  2050 -1500))
-      (outline (path signal 50  1050 1500  2050 1500))
-      (outline (path signal 50  -1050 1500  -1050 1700))
-      (outline (path signal 50  -2050 1500  -1050 1500))
-      (outline (path signal 50  2050 -1500  1050 -1500))
-      (outline (path signal 50  1050 -1500  1050 -1700))
-      (outline (path signal 50  -1050 -1500  -2050 -1500))
-      (outline (path signal 50  -2050 -1500  -2050 1500))
-      (outline (path signal 50  1050 -1700  -1050 -1700))
-      (outline (path signal 50  -1050 -1700  -1050 -1500))
-      (outline (path signal 120  910 1560  910 1510))
-      (outline (path signal 120  -910 1560  910 1560))
-      (outline (path signal 120  -910 1510  -910 1560))
-      (outline (path signal 120  910 390  910 -390))
-      (outline (path signal 120  910 -1510  910 -1560))
-      (outline (path signal 120  910 -1560  -910 -1560))
-      (outline (path signal 120  -910 -1560  -910 -1510))
-      (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 5 1137.5 950)
-      (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 4 1137.5 -950)
-      (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 3 -1137.5 -950)
-      (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 2 -1137.5 0)
-      (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 1 -1137.5 950)
-    )
     (image Resistor_SMD:R_0402_1005Metric
       (outline (path signal 120  -153.641 -380  153.641 -380))
       (outline (path signal 120  -153.641 380  153.641 380))
@@ -1058,7 +1014,7 @@
       (pin RoundRect[T]Pad_540.000000x640.000000_135.514000_um_0.000000_0 1 -510 0)
       (pin RoundRect[T]Pad_540.000000x640.000000_135.514000_um_0.000000_0 2 510 0)
     )
-    (image Capacitor_SMD:C_0402_1005Metric::1
+    (image Capacitor_SMD:C_0402_1005Metric
       (outline (path signal 120  -107.836 360  107.836 360))
       (outline (path signal 120  -107.836 -360  107.836 -360))
       (outline (path signal 50  910 460  910 -459.999))
@@ -1110,7 +1066,7 @@
       (pin RoundRect[T]Pad_1475.000000x600.000000_150.571000_um_0.000000_0 2 -937.5 -950)
       (pin RoundRect[T]Pad_1475.000000x600.000000_150.571000_um_0.000000_0 3 937.5 0)
     )
-    (image Capacitor_SMD:C_0402_1005Metric::2
+    (image Capacitor_SMD:C_0402_1005Metric::1
       (outline (path signal 120  -107.836 360  107.836 360))
       (outline (path signal 120  -107.836 -360  107.836 -360))
       (outline (path signal 50  910 459.999  910 -460))
@@ -1164,7 +1120,7 @@
       (pin RoundRect[T]Pad_540.000000x640.000000_135.514000_um_0.000000_0 1 -510 -0.001)
       (pin RoundRect[T]Pad_540.000000x640.000000_135.514000_um_0.000000_0 2 510 0.001)
     )
-    (image Capacitor_SMD:C_0402_1005Metric::3
+    (image Capacitor_SMD:C_0402_1005Metric::2
       (outline (path signal 120  -107.836 360  107.836 360))
       (outline (path signal 120  -107.836 -360  107.836 -360))
       (outline (path signal 50  910 460  910 -460))
@@ -1299,7 +1255,7 @@
             -20256.1 -447.044  -20385 -490.886  -20520.9 -498.322  -20653.9 -468.8
             -20773.9 -404.509))
     )
-    (image "Package_TO_SOT_SMD:SOT-23-5::1"
+    (image "Package_TO_SOT_SMD:SOT-23-5"
       (outline (path signal 120  910 1560  910 1510))
       (outline (path signal 120  -910 1560  910 1560))
       (outline (path signal 120  -910 1510  -910 1560))
@@ -1325,7 +1281,7 @@
       (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 4 1137.5 -950)
       (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 5 1137.5 950)
     )
-    (image Capacitor_SMD:C_0402_1005Metric::4
+    (image Capacitor_SMD:C_0402_1005Metric::3
       (outline (path signal 120  -107.836 -360  107.836 -360))
       (outline (path signal 120  -107.836 360  107.836 360))
       (outline (path signal 50  910 -459.999  -910 -460))
@@ -1339,7 +1295,7 @@
       (pin RoundRect[T]Pad_560.000000x620.000000_140.533000_um_0.000000_0 1 -480 0)
       (pin RoundRect[T]Pad_560.000000x620.000000_140.533000_um_0.000000_0 2 480 0)
     )
-    (image Capacitor_SMD:C_0402_1005Metric::5
+    (image Capacitor_SMD:C_0402_1005Metric::4
       (outline (path signal 120  -107.836 -360  107.836 -360))
       (outline (path signal 120  -107.836 360  107.836 360))
       (outline (path signal 50  -910 -460  -910 460))
@@ -1367,7 +1323,7 @@
       (pin RoundRect[T]Pad_540.000000x640.000000_135.514000_um_0.000000_0 1 -510 0)
       (pin RoundRect[T]Pad_540.000000x640.000000_135.514000_um_0.000000_0 2 510 0)
     )
-    (image "Package_TO_SOT_SMD:SOT-23-5::2"
+    (image "Package_TO_SOT_SMD:SOT-23-5::1"
       (outline (path signal 120  -910 1560  910 1560))
       (outline (path signal 120  -910 1510  -910 1560))
       (outline (path signal 120  -910 -1560  -910 -1510))
@@ -1615,7 +1571,7 @@
       (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 5 1137.5 0)
       (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 6 1137.5 950)
     )
-    (image Capacitor_SMD:C_0402_1005Metric::6
+    (image Capacitor_SMD:C_0402_1005Metric::5
       (outline (path signal 120  -107.836 360  107.836 360))
       (outline (path signal 120  -107.836 -360  107.836 -360))
       (outline (path signal 50  -910 460  910 460))
@@ -1672,7 +1628,7 @@
       (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 5 1137.5 0)
       (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 6 1137.5 950)
     )
-    (image Capacitor_SMD:C_0402_1005Metric::7
+    (image Capacitor_SMD:C_0402_1005Metric::6
       (outline (path signal 120  -107.836 -360  107.836 -360))
       (outline (path signal 120  -107.836 360  107.836 360))
       (outline (path signal 50  910 -460  -910 -460))
@@ -1746,7 +1702,7 @@
       (pin RoundRect[T]Pad_1950.000000x600.000000_150.571000_um_0.000000_0 13 2475 2540)
       (pin RoundRect[T]Pad_1950.000000x600.000000_150.571000_um_0.000000_0 14 2475 3810)
     )
-    (image Capacitor_SMD:C_0402_1005Metric::8
+    (image Capacitor_SMD:C_0402_1005Metric::7
       (outline (path signal 120  -107.836 -360.001  107.836 -360))
       (outline (path signal 120  -107.836 360  107.836 360.001))
       (outline (path signal 50  910 -460  -910 -460))
@@ -1808,7 +1764,7 @@
       (pin Rect[A]Pad_1651.000000x1651.000000_um 1 0 -5080)
       (pin Round[A]Pad_1651.000000_um 2 -2540 -5080)
     )
-    (image Capacitor_SMD:C_0402_1005Metric::9
+    (image Capacitor_SMD:C_0402_1005Metric::8
       (outline (path signal 120  -107.836 -360  107.836 -360.001))
       (outline (path signal 120  -107.836 360.001  107.836 360))
       (outline (path signal 50  910 -460  -910 -460))
@@ -1876,7 +1832,7 @@
       (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 5 1137.5 0)
       (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 6 1137.5 950)
     )
-    (image Capacitor_SMD:C_0402_1005Metric::10
+    (image Capacitor_SMD:C_0402_1005Metric::9
       (outline (path signal 120  -107.836 360  107.836 360.001))
       (outline (path signal 120  -107.836 -360.001  107.836 -360))
       (outline (path signal 50  -910 460  910 460))
@@ -1980,7 +1936,7 @@
       (pin RoundRect[T]Pad_1150.000000x2700.000000_250.951000_um_0.000000_0 1 -1475 0)
       (pin RoundRect[T]Pad_1150.000000x2700.000000_250.951000_um_0.000000_0 2 1475 0)
     )
-    (image Capacitor_SMD:C_0402_1005Metric::11
+    (image Capacitor_SMD:C_0402_1005Metric::10
       (outline (path signal 120  -107.836 360  107.836 360))
       (outline (path signal 120  -107.836 -360  107.836 -360))
       (outline (path signal 50  -910 459.999  910 460))
@@ -2143,7 +2099,7 @@
             -20561.6 -493.299  -20691.7 -452.993  -20806 -379.092  -20896.2 -277.075
             -20955.5 -154.508))
     )
-    (image Capacitor_SMD:C_0402_1005Metric::12
+    (image Capacitor_SMD:C_0402_1005Metric::11
       (outline (path signal 120  -107.836 360  107.836 360))
       (outline (path signal 120  -107.836 -360  107.836 -360))
       (outline (path signal 50  -910 460  910 459.999))
@@ -2297,7 +2253,7 @@
             -20762.7 -412.385  -20863.5 -320.812  -20935.8 -205.446  -20974.4 -74.842
             -20976.2 61.312  -20941.3 192.918  -20872.1 310.218  -20773.9 404.509))
     )
-    (image Capacitor_SMD:C_0402_1005Metric::13
+    (image Capacitor_SMD:C_0402_1005Metric::12
       (outline (path signal 120  -107.836 -360  107.836 -360))
       (outline (path signal 120  -107.836 360  107.836 360))
       (outline (path signal 50  910 -460  -910 -459.999))
@@ -2515,7 +2471,7 @@
       (pin Round[A]Pad_1700.000000_um 4 -0.001 -7620)
       (pin Round[A]Pad_1700.000000_um 5 0 -10160)
     )
-    (image Capacitor_SMD:C_0402_1005Metric::14
+    (image Capacitor_SMD:C_0402_1005Metric::13
       (outline (path signal 120  -107.836 -360.001  107.836 -360))
       (outline (path signal 120  -107.836 360  107.836 360.001))
       (outline (path signal 50  -910 -460  -910 460))
@@ -2842,7 +2798,7 @@
       (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 5 1137.5 0)
       (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 6 1137.5 950)
     )
-    (image Capacitor_SMD:C_0402_1005Metric::15
+    (image Capacitor_SMD:C_0402_1005Metric::14
       (outline (path signal 120  -107.836 -360  107.836 -360.001))
       (outline (path signal 120  -107.836 360.001  107.836 360))
       (outline (path signal 50  -910 -460  -910 460))
@@ -2974,7 +2930,7 @@
             -20008.9 167.44  -19981.2 34.121  -19990.5 -101.728  -20036.1 -230.033
             -20114.6 -341.277  -20220.2 -427.21  -20345.1 -481.459  -20480 -500))
     )
-    (image Capacitor_SMD:C_0402_1005Metric::16
+    (image Capacitor_SMD:C_0402_1005Metric::15
       (outline (path signal 120  -107.836 360  107.836 360.001))
       (outline (path signal 120  -107.836 -360.001  107.836 -360))
       (outline (path signal 50  910 460  910 -460))
@@ -3050,7 +3006,7 @@
       (pin Round[A]Pad_1700.000000_um 4 0.001 -7620)
       (pin Round[A]Pad_1700.000000_um 5 0 -10160)
     )
-    (image Capacitor_SMD:C_0402_1005Metric::17
+    (image Capacitor_SMD:C_0402_1005Metric::16
       (outline (path signal 120  -107.836 360.001  107.836 360))
       (outline (path signal 120  -107.836 -360  107.836 -360.001))
       (outline (path signal 50  910 460  910 -460))
@@ -3173,7 +3129,7 @@
             20762.7 412.386  20863.5 320.812  20935.8 205.446  20974.4 74.842
             20976.2 -61.311  20941.3 -192.919  20872.1 -310.218  20773.9 -404.509))
     )
-    (image Capacitor_SMD:C_0402_1005Metric::18
+    (image Capacitor_SMD:C_0402_1005Metric::17
       (outline (path signal 120  -107.836 -360  107.836 -360))
       (outline (path signal 120  -107.836 360  107.836 360))
       (outline (path signal 50  -910 -459.999  -910 460))
@@ -3575,7 +3531,7 @@
       (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 5 1137.5 0)
       (pin RoundRect[T]Pad_1325.000000x600.000000_150.571000_um_0.000000_0 6 1137.5 950)
     )
-    (image Capacitor_SMD:C_0402_1005Metric::19
+    (image Capacitor_SMD:C_0402_1005Metric::18
       (outline (path signal 120  -107.836 360.001  107.836 360))
       (outline (path signal 120  -107.836 -360  107.836 -360.001))
       (outline (path signal 50  -910 460  910 460))
@@ -3698,7 +3654,7 @@
       (pin Rect[A]Pad_1700.000000x1700.000000_um 1 0 0)
       (pin Round[A]Pad_1700.000000_um 2 0 -2540)
     )
-    (image Capacitor_SMD:C_0402_1005Metric::20
+    (image Capacitor_SMD:C_0402_1005Metric::19
       (outline (path signal 120  -107.836 -360  107.836 -360))
       (outline (path signal 120  -107.836 360  107.836 360))
       (outline (path signal 50  -910 -460  -910 459.999))
@@ -3982,12 +3938,12 @@
       (pins C1-1 J1-2 J1-5)
     )
     (net GND
-      (pins C2-2 U2-3 C69-2 D1-1 C88-2 U76-2 C31-2 U117-2 U117-3 U100-3 C68-2 C35-2
-        C3-2 U108-3 U63-2 U72-2 U60-2 C34-2 C19-2 U26-2 C102-2 U37-2 U82-2 U82-5 U62-2
-        U109-2 U109-3 C126-2 C36-2 U31-2 U98-7 U98-12 U98-13 C76-2 C80-2 C122-2 U112-3
-        U15-2 U15-3 U64-2 C7-2 U96-3 J29-2 U89-7 U89-12 U89-13 C127-2 C59-2 C125-2
-        U54-2 C71-2 C50-2 C81-2 U73-2 U121-2 U121-3 U43-2 J21-2 C73-2 C22-2 C87-1
-        C43-2 U3-3 C62-1 U36-2 U56-2 C91-2 U40-2 U8-2 C1-2 C118-2 U41-2 U41-3 U44-2
+      (pins C69-2 D1-1 C88-2 U76-2 C31-2 U117-2 U117-3 U100-3 C68-2 C35-2 C3-2 U108-3
+        U63-2 U72-2 U60-2 C34-2 C19-2 U26-2 C102-2 U37-2 U82-2 U82-5 U62-2 U109-2
+        U109-3 C126-2 C36-2 U31-2 U98-7 U98-12 U98-13 C76-2 C80-2 C122-2 U112-3 U15-2
+        U15-3 U64-2 C7-2 U96-3 J29-2 U89-7 U89-12 U89-13 C127-2 C59-2 C125-2 U54-2
+        C71-2 C50-2 C81-2 U73-2 U121-2 U121-3 U43-2 J21-2 C73-2 C22-2 C87-1 C43-2
+        C2-2 U3-3 C62-1 U36-2 U56-2 C91-2 U40-2 U8-2 C1-2 C118-2 U41-2 U41-3 U44-2
         C120-2 C67-1 D2-1 C89-2 C82-1 U5-2 U101-2 U101-3 C29-2 C135-2 U71-2 U33-2
         U14-2 U9-2 U9-3 U107-7 U107-12 U107-13 C8-2 C37-2 U11-2 J5-2 U22-2 C116-2
         C64-2 C14-2 C133-2 C56-2 U102-7 U102-12 U102-13 J7-2 C121-2 C103-2 U91-7 U91-12
@@ -4004,16 +3960,16 @@
         U99-7 U99-12 U99-13 U75-2 U39-2 U30-2 C75-2 C39-2 J23-2 C106-2 C17-2 U68-2
         C25-2 J1-8 J1-9 J17-2 C16-2 C30-2 U84-4 C27-2 U69-2 U104-3 U35-2 U59-2 U29-2
         C40-2 C72-1 U70-2 C101-2 C51-2 J9-2 C78-2 C100-2 C13-2 U92-3 U17-2 C60-2 C18-2
-        U20-2 C85-2 U4-2 U55-2 U85-2 U85-6 C105-2 C111-2 U88-3 U77-2 C84-2 C130-2
+        U20-2 C85-2 U4-2 U55-2 U85-2 U85-6 U2-3 C105-2 C111-2 U88-3 U77-2 C84-2 C130-2
         C20-2 C129-2 U94-7 U94-12 U94-13 C86-2 U24-2 U13-2 U65-2 U25-2 U66-2 C63-2
         C52-1 C15-2 R179-1 C117-2 C44-2 U32-2 U106-7 U106-12 U106-13 C23-2 C97-2 U57-2
         J28-2 C123-2 U113-2 U113-3 C26-2 U61-2 U90-2 U90-3 C5-2 C70-2 C33-2 U7-2 C93-2
         C139-2 C61-2)
     )
     (net +5V
-      (pins C2-1 U2-5 C3-1 U82-1 J21-1 C87-2 U3-5 C62-2 C67-2 C82-2 J5-1 J7-1 SW1-2
-        J13-1 J11-1 C47-2 C77-2 J26-1 J15-1 C57-2 C42-2 C98-1 J19-1 J23-1 J17-1 C72-2
-        J9-1 C100-1 U85-3 J2-2 C52-2)
+      (pins C3-1 U82-1 J21-1 C87-2 C2-1 U3-5 C62-2 C67-2 C82-2 J5-1 J7-1 SW1-2 J13-1
+        J11-1 C47-2 C77-2 J26-1 J15-1 C57-2 C42-2 C98-1 J19-1 J23-1 J17-1 C72-2 J9-1
+        C100-1 U85-3 U2-5 J2-2 C52-2)
     )
     (net +3.3V
       (pins C69-1 D1-2 C88-1 U76-5 C31-1 U117-5 U100-5 C68-1 C35-1 U108-5 U63-5 U72-5
@@ -4089,7 +4045,7 @@
       (pins U1-48 J2-1)
     )
     (net /Teensy/D36_5V
-      (pins U2-4 J3-1)
+      (pins J3-1 U2-4)
     )
     (net /Teensy/D37_5V
       (pins U3-4 J4-1)
@@ -5340,7 +5296,7 @@
       (pins U1-31)
     )
     (net "Net-(U1-37_CS)"
-      (pins U2-2 U1-29)
+      (pins U1-29 U2-2)
     )
     (net "unconnected-(U1-16_A2_RX4_SCL1-Pad38)"
       (pins U1-38)
@@ -5699,8 +5655,7 @@
     )
   )
   (wiring
-    (wire (path F.Cu 200  295110 -193045  299715 -193045  299720 -193040)(net /Teensy/D36_5V)(type route))
-    (wire (path F.Cu 200  295110 -195320  295100 -195330)(net GND)(type route))
+    (wire (path F.Cu 200  293210 -190510  293200 -190510)(net GND)(type route))
     (wire (path F.Cu 200  289300 -229870  292100 -229870)(net "Net-(J1-RCT)")(type route))
     (wire (path F.Cu 200  291810 -66860  292115 -67165)(net GND)(type route))
     (wire (path F.Cu 200  124254 -121406  124250 -121400)(net GND)(type route))
@@ -5931,6 +5886,7 @@
     (wire (path F.Cu 200  216100 -281930  216100 -281920)(net GND)(type route))
     (wire (path F.Cu 200  270940 -266878  270938 -266878)(net GND)(type route))
     (wire (path F.Cu 200  204980 -103306  204970 -103300)(net GND)(type route))
+    (wire (path F.Cu 200  295110 -195320  295100 -195330)(net GND)(type route))
     (wire (path F.Cu 200  126390 -274248  126398 -274255)(net GND)(type route))
     (wire (path F.Cu 200  182774 -259864  182770 -259860)(net GND)(type route))
     (wire (path F.Cu 200  288820 -192760  288820 -192750)(net GND)(type route))
@@ -6085,6 +6041,7 @@
     (wire (path F.Cu 1000  101163 -157170  104283 -157320)(net +5V)(type route))
     (wire (path F.Cu 200  293090 -99990  293090 -101505)(net +5V)(type route))
     (wire (path F.Cu 200  293080 -101495  293100 -101515)(net +5V)(type route))
+    (wire (path F.Cu 200  293210 -193045  293210 -191470)(net +5V)(type route))
     (wire (path F.Cu 1000  134497 -244311  135604 -241390)(net +5V)(type route))
     (wire (path F.Cu 1000  181040 -254048  181862 -257061)(net +5V)(type route))
     (wire (path F.Cu 200  293130 -169100  293180 -169150)(net +5V)(type route))
@@ -6566,6 +6523,8 @@
     (wire (path B.Cu 200  294400 -254300  294300 -254200)(net /Teensy/ETH_T+)(type route))
     (wire (path F.Cu 400  309880 -275730  309880 -262000)(net /Teensy/VIN)(type route))
     (wire (path F.Cu 400  308490 -280120  308490 -277120  309880 -275730)(net /Teensy/VIN)(type route))
+    (wire (path F.Cu 200  299715 -193045  299720 -193040)(net /Teensy/D36_5V)(type route))
+    (wire (path F.Cu 200  295110 -193045  299715 -193045)(net /Teensy/D36_5V)(type route))
     (wire (path F.Cu 200  299700 -170145  299720 -170165)(net /Teensy/D37_5V)(type route))
     (wire (path F.Cu 200  295080 -170145  299700 -170145)(net /Teensy/D37_5V)(type route))
     (wire (path F.Cu 200  139747 -245823  140436 -242960)(net "/Panels/Panel Column P1/Column Buffer/SCK_OUT")(type route))
@@ -6597,6 +6556,7 @@
     (wire (path F.Cu 200  99540 -168460  100500 -167480)(net "/Panels/Panel Column P3/Column Buffer/MISO_IN")(type route))
     (wire (path F.Cu 200  99512.7 -170265  99540 -168460)(net "/Panels/Panel Column P3/Column Buffer/MISO_IN")(type route))
     (wire (path F.Cu 200  101353 -164670  104283 -164940)(net "/Panels/Panel Column P3/Column Buffer/MOSI_OUT")(type route))
+    (wire (path F.Cu 200  101348 -162630  104283 -162400)(net "/Panels/Panel Column P3/Column Buffer/SCK_OUT")(type route))
     (wire (path F.Cu 200  101493 -198070  104283 -198280)(net "/Panels/Panel Column P3/Column Buffer/EINT_OUT")(type route))
     (wire (path F.Cu 200  101473 -190910  104283 -190660)(net "/Panels/Panel Column P3/Column Buffer/CS1_OUT")(type route))
     (wire (path F.Cu 200  101453 -192990  104283 -193200)(net "/Panels/Panel Column P3/Column Buffer/CS2_OUT")(type route))
@@ -6609,10 +6569,12 @@
     (wire (path F.Cu 200  124389 -126239  121600 -124220)(net "/Panels/Panel Column P4/Column Buffer/MISO_IN")(type route))
     (wire (path F.Cu 200  119770 -124440  118893 -125688)(net "/Panels/Panel Column P4/Column Buffer/MISO_IN")(type route))
     (wire (path F.Cu 200  121600 -124220  119770 -124440)(net "/Panels/Panel Column P4/Column Buffer/MISO_IN")(type route))
+    (wire (path F.Cu 200  107105 -145213  109271 -147046)(net "/Panels/Panel Column P4/Column Buffer/CS2_OUT")(type route))
     (wire (path F.Cu 200  114498 -128335  114490 -128330)(net "/Panels/Panel Column P4/Column Buffer/CS0_OUT")(type route))
     (wire (path B.Cu 200  108960 -136040  108780 -140450)(net "/Panels/Panel Column P4/Column Buffer/CS0_OUT")(type route))
     (wire (path B.Cu 200  114490 -128330  108960 -136040)(net "/Panels/Panel Column P4/Column Buffer/CS0_OUT")(type route))
     (wire (path B.Cu 200  108780 -140450  112257 -142937)(net "/Panels/Panel Column P4/Column Buffer/CS0_OUT")(type route))
+    (wire (path F.Cu 200  108344 -143542  110764 -144992)(net "/Panels/Panel Column P4/Column Buffer/CS1_OUT")(type route))
     (wire (path F.Cu 200  105371 -147686  107778 -149101)(net "/Panels/Panel Column P4/Column Buffer/CS_3OUT")(type route))
     (wire (path F.Cu 200  104152 -149346  106285 -151156)(net "/Panels/Panel Column P4/Column Buffer/EINT_OUT")(type route))
     (wire (path F.Cu 200  166664 -101037  167312 -103907)(net "/Panels/Panel Column P5/Column Buffer/MOSI_OUT")(type route))
@@ -7323,12 +7285,8 @@
     (wire (path F.Cu 200  294005 -80765  295275 -79495  295275 -74865)(net "Net-(U84-Vout)")(type route))
     (wire (path F.Cu 200  294005 -82615  294005 -80765)(net "Net-(U84-Vout)")(type route))
     (wire (path F.Cu 200  294005 -69915  295275 -69915)(net "Net-(U87B--)")(type route))
-    (wire (path F.Cu 200  101348 -162630  104283 -162400)(net "/Panels/Panel Column P3/Column Buffer/SCK_OUT")(type route))
-    (wire (path F.Cu 200  107105 -145213  109271 -147046)(net "/Panels/Panel Column P4/Column Buffer/CS2_OUT")(type route))
-    (wire (path F.Cu 200  108344 -143542  110764 -144992)(net "/Panels/Panel Column P4/Column Buffer/CS1_OUT")(type route))
-    (wire (path F.Cu 200  293210 -193045  293210 -191470)(net +5V)(type route))
-    (via "Via[0-5]_350:200_um"  121790 -282320 (net +3.3V)(type route))
-    (via "Via[0-5]_350:200_um"  295100 -195330 (net GND)(type route))
+    (via "Via[0-5]_350:200_um"  293200 -190510 (net GND)(type route))
+    (via "Via[0-5]_350:200_um"  293210 -193045 (net +5V)(type route))
     (via "Via[0-5]_350:200_um"  250840 -207080 (net GND)(type route))
     (via "Via[0-5]_350:200_um"  247090 -249470 (net GND)(type route))
     (via "Via[0-5]_350:200_um"  140750 -109560 (net GND)(type route))
@@ -7387,6 +7345,7 @@
     (via "Via[0-5]_350:200_um"  124350 -234120 (net GND)(type route))
     (via "Via[0-5]_350:200_um"  292890 -239590 (net GND)(type route))
     (via "Via[0-5]_350:200_um"  309500 -239750 (net GND)(type route))
+    (via "Via[0-5]_350:200_um"  295100 -195330 (net GND)(type route))
     (via "Via[0-5]_350:200_um"  267290 -271560 (net GND)(type route))
     (via "Via[0-5]_350:200_um"  280840 -233790 (net GND)(type route))
     (via "Via[0-5]_350:200_um"  263290 -236460 (net GND)(type route))
@@ -7677,6 +7636,7 @@
     (via "Via[0-5]_350:200_um"  244828 -245730 (net +3.3V)(type route))
     (via "Via[0-5]_350:200_um"  290520 -103150 (net +3.3V)(type route))
     (via "Via[0-5]_350:200_um"  292940 -269160 (net +3.3V)(type route))
+    (via "Via[0-5]_350:200_um"  121790 -282320 (net +3.3V)(type route))
     (via "Via[0-5]_350:200_um"  286440 -212370 (net +3.3V)(type route))
     (via "Via[0-5]_350:200_um"  263470 -227400 (net +3.3V)(type route))
     (via "Via[0-5]_350:200_um"  270690 -238915 (net +3.3V)(type route))
