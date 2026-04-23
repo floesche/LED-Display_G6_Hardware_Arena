@@ -7,7 +7,7 @@
 	(title_block
 		(title "G6 Teensy 10-10 Arena")
 		(date "2026-04-22")
-		(rev "v1.1.3")
+		(rev "v1.1.4")
 		(company "IORodeo for Reiser Lab @ Janelia | HHMI")
 	)
 	(lib_symbols
@@ -1363,12 +1363,6 @@
 		(uuid "e4970959-e345-4d83-88c9-51f1be77aaf9")
 	)
 	(junction
-		(at 63.5 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37d01c16-d597-4001-82c0-57d44f732549")
-	)
-	(junction
 		(at 33.02 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1379,6 +1373,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ef4632d-bffe-4d67-95bd-387a10099eb4")
+	)
+	(no_connect
+		(at 49.53 34.29)
+		(uuid "a7aefd2b-66da-4a83-af1b-0987323b7fd6")
 	)
 	(wire
 		(pts
@@ -1439,16 +1437,6 @@
 			(type default)
 		)
 		(uuid "24a79f51-922c-47e6-b857-e1795e35f4ff")
-	)
-	(wire
-		(pts
-			(xy 49.53 34.29) (xy 63.5 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b763ac7-09e1-4a83-88e3-d50ceac5278e")
 	)
 	(wire
 		(pts
