@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "d189f51f-f642-4f5d-bbe8-7dac1f23876f")
 	(paper "User" 279.4 304.8)
 	(title_block
-		(title "G6 Teensy 10-10 Arena")
-		(date "2026-04-28")
-		(rev "v1.1.7")
+		(title "G6 10-10 Arena Top")
+		(date "2026-05-26")
+		(rev "v1.1.0")
 		(company "IORodeo for Reiser Lab @ Janelia | HHMI")
 	)
 	(lib_symbols)
@@ -24,11 +24,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "2d48c774-5bc7-44a4-9df6-3d6978bb1a97")
 		(property "Sheetname" "Panel Column P8"
 			(at 175.26 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,6 +42,8 @@
 		)
 		(property "Sheetfile" "panel_column.kicad_sch"
 			(at 175.26 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68,11 +72,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "2ea8ae5a-de16-4e05-aa10-4b631d39866b")
 		(property "Sheetname" "Panel Column P10"
 			(at 175.26 161.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84,6 +90,8 @@
 		)
 		(property "Sheetfile" "panel_column.kicad_sch"
 			(at 175.26 186.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -112,11 +120,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "3f550e36-6b1c-4366-9cef-eaf43ff57ed4")
 		(property "Sheetname" "Panel Column P1"
 			(at 106.68 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -128,6 +138,8 @@
 		)
 		(property "Sheetfile" "panel_column.kicad_sch"
 			(at 106.68 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -156,11 +168,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "51470252-73d0-4c49-9e01-600741a5432e")
 		(property "Sheetname" "Panel Column P3"
 			(at 106.68 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172,6 +186,8 @@
 		)
 		(property "Sheetfile" "panel_column.kicad_sch"
 			(at 106.68 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,11 +216,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "5b4b3792-1e39-479f-bd98-38e020ce3fcb")
 		(property "Sheetname" "Panel Column P9"
 			(at 175.26 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,6 +234,8 @@
 		)
 		(property "Sheetfile" "panel_column.kicad_sch"
 			(at 175.26 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -244,11 +264,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "92c2be2f-8271-448b-8aa4-e4b8407efff6")
 		(property "Sheetname" "Panel Column P6"
 			(at 175.26 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -260,6 +282,8 @@
 		)
 		(property "Sheetfile" "panel_column.kicad_sch"
 			(at 175.26 55.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -288,11 +312,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "dd831cd8-a815-4f96-a072-dbf69e6ca36d")
 		(property "Sheetname" "Panel Column P2"
 			(at 106.68 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -304,6 +330,8 @@
 		)
 		(property "Sheetfile" "panel_column.kicad_sch"
 			(at 106.68 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -332,11 +360,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "e576223b-3974-48ef-8061-d66ec99be93c")
 		(property "Sheetname" "Panel Column P5"
 			(at 106.68 161.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -348,6 +378,8 @@
 		)
 		(property "Sheetfile" "panel_column.kicad_sch"
 			(at 106.68 186.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -376,11 +408,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "e9282780-0e45-440c-a214-c0eb816f51cd")
 		(property "Sheetname" "Panel Column P4"
 			(at 106.68 128.8284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -392,6 +426,8 @@
 		)
 		(property "Sheetfile" "panel_column.kicad_sch"
 			(at 106.68 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -420,11 +456,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 255 194 1.0000)
+			(color 255 255 194 1)
 		)
 		(uuid "f30e8937-4e73-4e94-bb30-d8448d44cc0d")
 		(property "Sheetname" "Panel Column P7"
 			(at 175.26 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -436,6 +474,8 @@
 		)
 		(property "Sheetfile" "panel_column.kicad_sch"
 			(at 175.26 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
